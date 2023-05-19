@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "run-dev": "^0.0.1-security",
     "vue": "^3.2.45"
   },
   "devDependencies": {
