@@ -1,7 +1,7 @@
 :root {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  width: 1440px;
+  margin: -8px;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -292,8 +292,8 @@ table {
 
 .footer {
   display: flex;
-  height: 156px;
-  margin-top: 95px;
+  height: 132px;
+  margin-top: 100px;
   width: 100%;
   background-color: #6CA7FF;
   place-items: center;
