@@ -1,7 +1,22 @@
-<script setup>
+<script>
   import { ref } from 'vue'
+  
+  export default{
+    methods:{
+        scroll(refname){
+            const element = document.getElementById(refname);
+            element.scrollIntoView({behavior: 'smooth'});
+        }
+    }
+}
 
   const containerClass = ref('container')
+
+
+
+</script>
+<script>
+
 </script>
 
 <template>
@@ -9,9 +24,9 @@
       <div class="header">
       <img class="logo" src="./assets/logo.png" alt="Logo">
       <div class="nav-head">
-        <a id="ahead" href="#body">About Me</a>
-        <a id="ahead" href="#portfolio">Portfolio</a>
-        <a id="ahead" href="#contact">Contact</a>
+        <v-btn id="ahead" text @click="scroll('body')">About Me</v-btn> 
+        <v-btn id="ahead" text @click="scroll('portfolio')">Portfolio</v-btn>
+        <v-btn id="ahead" text @click="scroll('contact')">Contact</v-btn>
       </div>  
     </div>
 
