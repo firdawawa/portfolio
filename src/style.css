@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -20,7 +22,7 @@
 
 .header {
   display: flex;
-  height: 156px;
+  height: 120px;
   width: 100%;
   background-color: #6CA7FF;
   place-items: center;
@@ -45,7 +47,7 @@
 
 .body {
   padding-top: 240px;
-  padding-left: 126px;
+  padding-left: 98px;
 }
 
 .namepict {
@@ -292,7 +294,7 @@ table {
 
 .footer {
   display: flex;
-  height: 132px;
+  height: 120px;
   margin-top: 100px;
   width: 100%;
   background-color: #6CA7FF;

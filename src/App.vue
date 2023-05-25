@@ -1,24 +1,22 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
+  import { ref } from 'vue'
+
+  const containerClass = ref('container')
 </script>
 
 <template>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <div class="container">
+    <div :class="containerClass">
       <div class="header">
       <img class="logo" src="./assets/logo.png" alt="Logo">
       <div class="nav-head">
-        <a id="ahead" href="#aboutme">About Me</a>
+        <a id="ahead" href="#body">About Me</a>
         <a id="ahead" href="#portfolio">Portfolio</a>
         <a id="ahead" href="#contact">Contact</a>
       </div>  
     </div>
 
     <div class="body-container">
-    <div class="body">
+    <div class="body" id="body">
       <div id="aboutme">
         <div class="namepict">
           <div class="namedesc">
@@ -39,7 +37,7 @@
             <div class="skillright">
               <h5>Wireframe</h5>
               <h5>HTML/CSS</h5> 
-              <h5>JavaScript</h5> 
+              <h5>Basic JavaScript</h5> 
             </div> 
           </div>
         </div>
