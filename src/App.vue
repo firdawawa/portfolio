@@ -11,12 +11,6 @@
 }
 
   const containerClass = ref('container')
-
-
-
-</script>
-<script>
-
 </script>
 
 <template>
